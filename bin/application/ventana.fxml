@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="480.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <AnchorPane fx:id="pane1" layoutX="143.0" layoutY="210.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #85bb5c;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label layoutX="154.0" layoutY="7.0" prefHeight="50.0" prefWidth="201.0" stylesheets="@application.css" text="Bruce Dickinson" textFill="WHITE">
+               <font>
+                  <Font name="Berlin Sans FB" size="28.0" />
+               </font>
+            </Label>
+            <Label layoutX="17.0" layoutY="50.0" prefHeight="150.0" prefWidth="446.0" text="Es un cantante, productor musical y piloto de aviación británico. Es famoso por ser el vocalista, frontman y co-compositor de la banda de heavy metal Iron Maiden. Es considerado por muchos expertos de canto, medios y el público en general como uno de los mejores cantantes de la historia de este género. También posee un nivel intermedio de interpretación en guitarra, mostrado principalmente en su carrera en solitario." textAlignment="JUSTIFY" textFill="WHITE" wrapText="true" />
+            <ImageView fitHeight="332.0" fitWidth="234.0" layoutX="120.0" layoutY="179.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/2.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="pane2" layoutX="133.0" layoutY="200.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #34515e;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fitHeight="254.0" fitWidth="354.0" layoutX="55.0" layoutY="240.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/3.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="186.0" layoutY="15.0" prefHeight="50.0" prefWidth="91.0" text="Lemmy" textFill="WHITE">
+               <font>
+                  <Font name="Berlin Sans FB" size="28.0" />
+               </font>
+            </Label>
+            <Label layoutX="15.0" layoutY="57.0" prefHeight="178.0" prefWidth="446.0" text="Ian Fraser Kilmister nació en la Nochebuena de 1945 en Burslem, Stoke-on-Trent, Inglaterra. Cuando tenía tres meses de edad, su padre, un excapellán de la Royal Air Force, se separó de su madre. Su madre y su abuela se establecieron en Newcastle-under-Lyme, otra zona adyacente a Stoke on Trent, para luego mudarse a Madeley (Staffordshire). Cuando Ian contaba nueve años, su madre se casó con George Willis, quien tenía dos hijos mayores de un matrimonio previo, Patricia y Tony, con quienes nunca pudo llevarse bien. Luego la familia se mudó a una granja en Benllech, Anglesey, en Gales del Norte​ y fue en ese momento en el que comenzó a mostrar interés por el rock and roll, las mujeres y los caballos." textAlignment="JUSTIFY" textFill="WHITE" wrapText="true" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="pane3" layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ff5e5e;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label layoutX="182.0" layoutY="21.0" text="Paco Clavel" textFill="WHITE">
+               <font>
+                  <Font name="Berlin Sans FB" size="28.0" />
+               </font>
+            </Label>
+            <Label layoutX="32.0" layoutY="52.0" prefHeight="205.0" prefWidth="439.0" text="Es un artista y cantante pop español creador durante la Movida del guarripop y el cutreLux, siendo el principal impulsor de esta estética.​ Además de radio hace sesiones como pinchadiscos principalmente en Madrid. Se inició con colaboraciones en fanzines, revistas alternativas y tocando en garitos y fiestas con una formación de estrambótico nombre: Bob Destiny &amp; Clavel y Jazmín. En 1980 la gente de la sala Vía Láctea de Madrid comenzó a editar algunos sencillos, y uno de ellos fue el de Bob Destiny &amp; Clavel y Jazmín. El trabajo cayó en manos de un directivo de la discográfica CBS, quién rápidamente se hizo con los servicios del grupo y le acortó el nombre al más asequible Clavel y Jazmín. Al poco tiempo editaban su primer disco Reina por un día (1980), del cual se extrajo el single «El twist del autobús»." textAlignment="JUSTIFY" textFill="WHITE" wrapText="true" />
+            <ImageView fitHeight="292.0" fitWidth="288.0" layoutX="90.0" layoutY="246.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/1.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <JFXButton layoutX="382.0" layoutY="508.0" onAction="#nextAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #00000020; -fx-background-radius: 50px;" text="&gt;" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="43.0" layoutY="508.0" onAction="#backAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #00000020; -fx-background-radius: 50px;" text="&lt;" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </JFXButton>
+      <Label fx:id="countLabel" alignment="CENTER" layoutX="104.0" layoutY="525.0" prefHeight="17.0" prefWidth="269.0" text="1/3" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
